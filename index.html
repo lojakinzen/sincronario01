@@ -1,0 +1,470 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+
+  <link href='style.css' rel='stylesheet' type='text/css'>
+
+  <script src='script.js'></script>
+
+</head>
+
+<style>
+  body {
+    padding: 10px 0;
+    background-color: #292927;
+    margin: 10px 20px 20px 10px;
+    font-family: museo_sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+      "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 3vw;
+    font-weight: 500;
+    line-height: 1.43 color: white;
+    text-align: center;
+  }
+</style>
+
+<body>
+
+  <div id="linha_plasma">
+
+    <div class="plasma">
+
+      <span class="plasma-dali"><img id="img-dali" class="ml-2 pr-1" width="" src="https://cdn.shopify.com/s/files/1/0709/8728/4761/files/DALI.svg?v=1678379581">
+
+      </span>
+      <br />
+
+      DALI
+    </div>
+
+    <div class="plasma">
+
+      <span class="plasma-seli"><img id="img-seli" class="ml-2 pr-1" width="" src="https://cdn.shopify.com/s/files/1/0709/8728/4761/files/SELI.svg?v=1678379580">
+
+      </span>
+
+      <br />
+
+      SELI
+    </div>
+
+    <div class="plasma">
+
+      <span class="plasma-dali"><img id="img-dali" class="ml-2 pr-1" width="" src="https://cdn.shopify.com/s/files/1/0709/8728/4761/files/GAMA.svg?v=1678379581">
+
+      </span>
+
+      <br />
+
+      GAMA
+    </div>
+
+    <div class="plasma">
+
+      <span class="plasma-dali"><img id="img-dali" class="ml-2 pr-1" width="" src="https://cdn.shopify.com/s/files/1/0709/8728/4761/files/KALI.svg?v=1678379581">
+
+      </span>
+
+      <br />
+
+      KALI
+    </div>
+
+    <div class="plasma">
+
+      <span class="plasma-dali"><img id="img-dali" class="ml-2 pr-1" width="" src="https://cdn.shopify.com/s/files/1/0709/8728/4761/files/ALFA.svg?v=1678379581">
+
+      </span>
+
+      <br />
+
+      ALFA
+    </div>
+
+    <div class="plasma">
+
+      <span class="plasma-dali"><img id="img-dali" class="ml-2 pr-1" width="" src="https://cdn.shopify.com/s/files/1/0709/8728/4761/files/LIMI.svg?v=1678379581">
+
+      </span>
+
+      <br />
+
+      LIMI
+    </div>
+
+    <div class="plasma">
+
+      <span class="plasma-dali"><img id="img-dali" class="ml-2 pr-1" width="" src="https://cdn.shopify.com/s/files/1/0709/8728/4761/files/SILIO.svg?v=1678379581">
+
+      </span>
+
+      <br />
+
+      SÍLIO
+    </div>
+
+  </div>
+
+  <div id="semana1">
+
+    <button class="btn" id="dia1">
+      1
+    </button>
+    <button class="btn" id="dia2">
+      2
+    </button>
+    <button class="btn" id="dia3">
+      3
+    </button>
+    <button class="btn" id="dia4">
+      4
+    </button>
+    <button class="btn" id="dia5">
+      5
+    </button>
+    <button class="btn" id="dia6">
+      6
+    </button>
+    <button class="btn" id="dia7">
+      7
+    </button>
+
+  </div>
+
+  <div id="semana2">
+
+    <button class="btn" id="dia8">
+      8
+    </button>
+    <button class="btn" id="dia9">
+      9
+    </button>
+    <button class="btn" id="dia10">
+      10
+    </button>
+    <button class="btn" id="dia11">
+      11
+    </button>
+    <button class="btn" id="dia12">
+      12
+    </button>
+    <button class="btn" id="dia13">
+      13
+    </button>
+    <button class="btn" id="dia14">
+      14
+    </button>
+
+  </div>
+
+  <div id="semana3">
+
+    <button class="btn" id="dia15">
+      15
+    </button>
+    <button class="btn" id="dia16">
+      16
+    </button>
+    <button class="btn" id="dia17">
+      17
+    </button>
+    <button class="btn" id="dia18">
+      18
+    </button>
+    <button class="btn" id="dia19">
+      19
+    </button>
+    <button class="btn" id="dia20">
+      20
+    </button>
+    <button class="btn" id="dia21">
+      21
+    </button>
+
+  </div>
+
+  <div id="semana4">
+
+    <button class="btn" id="dia22">
+      22
+    </button>
+    <button class="btn" id="dia23">
+      23
+    </button>
+    <button class="btn" id="dia24">
+      24
+    </button>
+    <button class="btn" id="dia25">
+      25
+    </button>
+    <button class="btn" id="dia26">
+      26
+    </button>
+    <button class="btn" id="dia27">
+      27
+    </button>
+    <button class="btn" id="dia28">
+      28
+    </button>
+
+  </div>
+
+  <div class="container">
+        <div class="calendar-assets">
+            <h1 id="currentDate"></h1>
+            <div class="field">
+                <label for="date">Data no Gregoriano</label>
+                <form class="form-input" id="date-search" onsubmit="return setDate(this)">
+                    <input type="date" class="text-field" name="date" id="date" required>
+                    <button type="submit" class="btn-calendario" title="Pesquisar"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+            <div class="day-assets">
+                <button class="btn-calendario" onclick="prevDay()" title="Dia anterior"><i class="fas fa-chevron-left"></i> </button>
+                <button class="btn-calendario" onclick="resetDate()" title="Dia atual"><i class="fas fa-calendar-day"></i> Hoje</button>
+                <button class="btn-calendario" onclick="nextDay()" title="Próximo dia"><i class="fas fa-chevron-right"></i> </button>
+            </div>
+        </div>
+        <div class="calendar" id="table">
+            <div class="header">
+                <!-- Aqui é onde ficará o h1 com o mês e o ano -->
+                <div class="month" id="month-header">
+
+                </div>
+                <div class="buttons">
+                    <button class="icon" onclick="prevMonth()" title="Mês anterior"><i class="fas fa-chevron-left"></i></button>
+                    <button class="icon" onclick="nextMonth()" title="Próximo mês"><i class="fas fa-chevron-right "></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+  <script>
+    let btnList = document.querySelectorAll('.btn')   
+    let diaSelect = document.querySelector('#dia')
+    let luaSelect = document.querySelector('#lua')
+    let calendario = document.querySelector('.calendario')
+    
+    
+    btnList.forEach(btn => {
+      
+    btn.addEventListener('click', () => {
+    document.querySelector('.special')?.classList.remove('special');
+    btn.classList.add('special');
+    });
+      
+    });
+    
+    const months = [
+    "Lua 01 - Magnética",
+    "Lua 02 - Lunar",
+    "Lua 03 - Elétrica",
+    "Lua 04 - Autoexistente",
+    "Lua 05 - Hamônica",
+    "Lua 06 - Rítmica",
+    "Lua 07 - Ressonante",
+    "Lua 08 - Galáctica",
+    "Lua 09 - Solar",
+    "Lua 10 - Planetária",
+    "Lua 11 - Espectral",
+    "Lua 12 - Cristal",
+  
+];
+
+const weekdays = ["Dali", "Seli", "Gama", "Kali", "Alfa", "Limi", "Sílio"];
+
+
+
+// Váriavel principal
+let date = new Date();
+
+// Função que retorna a data atual do calendário 
+function getCurrentDate(element, asString) {
+    if (element) {
+        if (asString) {
+            return element.textContent = weekdays[date.getDay()] + ', ' + date.getDate() + " da " + months[date.getMonth()].substring(0, 20) + " do Anel " + date.getFullYear();
+        }
+        return element.value = date.toISOString().substr(0, 10);
+    }
+    return date;
+}
+
+
+// Função principal que gera o calendário
+function generateCalendar() {
+
+    // Pega um calendário e se já existir o remove
+    const calendar = document.getElementById('calendar');
+    if (calendar) {
+        calendar.remove();
+    }
+
+    // Cria a tabela que será armazenada as datas
+    const table = document.createElement("table");
+    table.id = "calendar";
+
+    // Cria os headers referentes aos dias da semana
+    const trHeader = document.createElement('tr');
+    trHeader.className = 'weekends';
+    weekdays.map(week => {
+        const th = document.createElement('th');
+        const w = document.createTextNode(week.substring(0, 5));
+        th.appendChild(w);
+        trHeader.appendChild(th);
+    });
+
+    // Adiciona os headers na tabela
+    table.appendChild(trHeader);
+
+    //Pega o dia da semana do primeiro dia do mês
+    const weekDay = new Date(
+        date.getFullYear(),
+        date.getMonth(),
+        1
+    ).getDay();
+
+    //Pega o ultimo dia do mês
+    const lastDay = new Date(
+        date.getFullYear(),
+        date.getMonth() + 1,
+        0
+    ).getDate();
+
+    let tr = document.createElement("tr");
+    let td = '';
+    let empty = '';
+    let btn = document.createElement('button');
+    let week = 0;
+
+    // Se o dia da semana do primeiro dia do mês for maior que 0(primeiro dia da semana);
+    while (week < weekDay) {
+        td = document.createElement("td");
+        empty = document.createTextNode(' ');
+        td.appendChild(empty);
+        tr.appendChild(td);
+        week++;
+    }
+
+    // Vai percorrer do 1º até o ultimo dia do mês
+    for (let i = 1; i <= lastDay;) {
+        // Enquanto o dia da semana for < 7, ele vai adicionar colunas na linha da semana
+        while (week < 7) {
+            td = document.createElement('td');
+            let text = document.createTextNode(i);
+            btn = document.createElement('button');
+            btn.className = "btn-day";
+            btn.addEventListener('click', function () { changeDate(this) });
+            week++;
+
+
+
+            // Controle para ele parar exatamente no ultimo dia
+            if (i <= lastDay) {
+                i++;
+                btn.appendChild(text);
+                td.appendChild(btn)
+            } else {
+                text = document.createTextNode(' ');
+                td.appendChild(text);
+            }
+            tr.appendChild(td);
+        }
+        // Adiciona a linha na tabela
+        table.appendChild(tr);
+
+        // Cria uma nova linha para ser usada
+        tr = document.createElement("tr");
+
+        // Reseta o contador de dias da semana
+        week = 0;
+    }
+    // Adiciona a tabela a div que ela deve pertencer
+    const content = document.getElementById('table');
+    content.appendChild(table);
+    changeActive();
+    changeHeader(date);
+    document.getElementById('date').textContent = date;
+    getCurrentDate(document.getElementById("currentDate"), true);
+    getCurrentDate(document.getElementById("date"), false);
+}
+
+// Altera a data atráves do formulário
+function setDate(form) {
+    let newDate = new Date(form.date.value);
+    date = new Date(newDate.getFullYear(), newDate.getMonth(), newDate.getDate() + 1);
+    generateCalendar();
+    return false;
+}
+
+// Método Muda o mês e o ano do topo do calendário
+function changeHeader(dateHeader) {
+    const month = document.getElementById("month-header");
+    if (month.childNodes[0]) {
+        month.removeChild(month.childNodes[0]);
+    }
+    const headerMonth = document.createElement("h1");
+    const textMonth = document.createTextNode(months[dateHeader.getMonth()].substring(0, 6) + " - " + dateHeader.getFullYear());
+    headerMonth.appendChild(textMonth);
+    month.appendChild(headerMonth);
+}
+
+// Função para mudar a cor do botão do dia que está ativo
+function changeActive() {
+    let btnList = document.querySelectorAll('button.active');
+    btnList.forEach(btn => {
+        btn.classList.remove('active');
+    });
+    btnList = document.getElementsByClassName('btn-day');
+    for (let i = 0; i < btnList.length; i++) {
+        const btn = btnList[i];
+        if (btn.textContent === (date.getDate()).toString()) {
+            btn.classList.add('active');
+        }
+    }
+}
+
+// Função que pega a data atual
+function resetDate() {
+    date = new Date();
+    generateCalendar();
+}
+
+// Muda a data pelo numero do botão clicado
+function changeDate(button) {
+    let newDay = parseInt(button.textContent);
+    date = new Date(date.getFullYear(), date.getMonth(), newDay);
+    generateCalendar();
+}
+
+// Funções de avançar e retroceder mês e dia
+function nextMonth() {
+    date = new Date(date.getFullYear(), date.getMonth() + 1, 1);
+    generateCalendar(date);
+}
+
+function prevMonth() {
+    date = new Date(date.getFullYear(), date.getMonth() - 1, 1);
+    generateCalendar(date);
+}
+
+
+function prevDay() {
+    date = new Date(date.getFullYear(), date.getMonth(), date.getDate() - 1);
+    generateCalendar();
+}
+
+function nextDay() {
+    date = new Date(date.getFullYear(), date.getMonth(), date.getDate() + 1);
+    generateCalendar();
+}
+
+document.onload = generateCalendar(date);
+
+
+  </script>
+  
+  <script src="https://kit.fontawesome.com/812e771e48.js" crossorigin="anonymous"></script>
+  
+</body>
