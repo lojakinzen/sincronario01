@@ -949,7 +949,7 @@
 .btn-day.active::before {
     position: absolute;
     content: '';
-    width: 40px;
+    width: 30px;
     height: 40px;
     background: #455AF7;
     border-radius: 10px;
