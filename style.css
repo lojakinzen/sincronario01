@@ -892,20 +892,24 @@
 /* Objetos */
 .container {
     display: flex;
-    flex-direction: ;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+.calendar-assets {
+}
 .form-input {
     display: flex;
+    width: 250px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
   
 }
 .day-assets {
     display: flex;
+    width: 250px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 /* Botões */
@@ -932,7 +936,7 @@
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     
 }
-.btn-calendario:active {
+.btn-calendario:hover {
   color: #FFF;
   background: #455AF7;
   transition: all 0.005s;
@@ -942,7 +946,7 @@
 /* Calendario */
 .text-field {
 	height: 30px;
-	width: 130px;
+	width: 141px;
   border: none;
   border-radius: 6px;
   outline: none;
