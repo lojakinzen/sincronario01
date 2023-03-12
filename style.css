@@ -901,7 +901,7 @@
     border: none;
     background: #fff;
     color: #262626;
-    border-radius: 10px;
+    border-radius: 6px;
     height: 30px;
     font-weight: 600;
     min-width: 75px;
@@ -954,27 +954,24 @@
 }
 
 .text-field {
-      	font-family: museo_sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+	height: 30px;
+	width: 165px;
+	margin-right: 0px;
+	background-color: #fff;
+	padding: 0px 10px 0px 10px;
+	box-sizing: border-box;
+	border-radius: 6px;
+	outline: none;
+	color: #262626;
+	border: 0px #5b5b5b;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 500;
+	cursor: pointer;
+  justify-content: space-between;
+	font-family: museo_sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
       "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
       "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    padding: 10px;
-    height: 30px;
-    width: 145px;
-    border: 1px #f0f0f0;
-    border-radius: 10px;
-    margin: 0px 10px 0 0;
-    background-color: #fff;
-    color: #262626;
-  font-size: 14px;
-}
-
-
-
-input,
-button,
-textarea {
-    font-family: "Open Sans", sans-serif;
-    font-size: 14px;
 }
 
 
@@ -998,12 +995,13 @@ textarea {
 
 
 
+
 .calendar-assets {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 150px;
+    width: 250px;
     padding: 0px 0px 0px 0px;
 }
 
@@ -1035,10 +1033,9 @@ textarea {
 
 .form-input {
     display: flex;
-    width: 100%;
+    width: 250px;
     align-items: center;
-    justify-content: center;
-  height: 30px;
+    justify-content: space-between;
   
 }
 
