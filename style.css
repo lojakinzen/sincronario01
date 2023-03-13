@@ -969,6 +969,61 @@
 
 
 
+select{
+	height: 30px;
+	width: 165px;
+	background-color: #272626;
+	padding: 0px 5px;
+	box-sizing: border-box;
+	outline: none;
+	color: #ccc;
+	border: 1.5px solid #5b5b5b;
+	text-align: left;
+	font-size: 14.5px;
+	font-weight: 610;
+	cursor: pointer;
+	font-family: museo_sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+      "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.seletores {
+  display: flex;
+  flex-wrap: no-wrap;
+  justify-content: center;
+}
+
+
+.sincronario{
+  display: flex;
+  padding: 2px 2px 2px 2px;
+  flex-direction:;
+  border: 2px white;
+  height: 60px;
+  
+}
+
+#lua {
+  margin-top: 0px;
+  width: 180px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-left: none;
+}
+
+#dia {
+  margin-top: 0px;
+  width: 130px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+
+
+
+
+
+
 /* Parte do Calendário que não vai usar*/
 #currentDate{
   display: none;
