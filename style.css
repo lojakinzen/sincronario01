@@ -936,7 +936,7 @@
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     
 }
-.btn-calendario:hover {
+.btn-calendario:active {
   color: #FFF;
   background: black;
   transition: all 0.005s;
@@ -1006,7 +1006,7 @@ select{
 
 #lua {
   margin-top: 0px;
-  width: 200px;
+  width: 190px;
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
   border-left: 1px solid white;
@@ -1014,7 +1014,7 @@ select{
 
 #dia {
   margin-top: 0px;
-  width: 135px;
+  width: 128px;
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
 }
