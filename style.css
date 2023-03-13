@@ -999,13 +999,14 @@ select{
   padding: 2px 2px 2px 2px;
   flex-direction:;
   border: 2px white;
-  height: 60px;
+  height: 35px;
+  margin-top: 10px;
   
 }
 
 #lua {
   margin-top: 0px;
-  width: 180px;
+  width: 200px;
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
   border-left: none;
@@ -1013,7 +1014,7 @@ select{
 
 #dia {
   margin-top: 0px;
-  width: 130px;
+  width: 135px;
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
 }
