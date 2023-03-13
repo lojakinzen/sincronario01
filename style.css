@@ -916,11 +916,11 @@
 .btn-calendario {
     height: 30px;
     width: 76px;
-    border: 1.5px solid #5b5b5b;
+    border: 1.5px;
     border-radius: 6px;
     outline: none;
-    background-color: #272626;
-    color: #ccc;
+    background-color: #ccc;
+    color: #272626;
     padding: 0px 0px;
     
     display: flex;
@@ -938,7 +938,7 @@
 }
 .btn-calendario:hover {
   color: #FFF;
-  background: #455AF7;
+  background: black;
   transition: all 0.005s;
 }
 
@@ -972,12 +972,12 @@
 select{
 	height: 30px;
 	width: 165px;
-	background-color: #272626;
+	background-color: #ccc;
 	padding: 0px 5px;
 	box-sizing: border-box;
 	outline: none;
-	color: #ccc;
-	border: 1.5px solid #5b5b5b;
+	color: #272626;
+	border: none;
 	text-align: left;
 	font-size: 14.5px;
 	font-weight: 610;
@@ -1009,7 +1009,7 @@ select{
   width: 200px;
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
-  border-left: none;
+  border-left: 1px solid white;
 }
 
 #dia {
