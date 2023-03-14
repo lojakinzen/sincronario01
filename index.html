@@ -325,6 +325,9 @@ btn.addEventListener('click', () => {
     });
       
     });
+    
+    
+// capturando os botões dos 28 dias e armazenando em variáveis    
   
 
 // capturando os valores de data do formulário
@@ -334,8 +337,13 @@ let formDate = document.querySelector('.text-field')
 form.addEventListener('submit', function(event){
   event.preventDefault()
   let inputDate = formDate.value
-  console.log(inputDate)
+  let year = formDate.value.substring(0, 4)
+  let month = formDate.value.substring(5, 7)
+  let day = formDate.value.substring(8, 10)
+  if(day == 14){document.querySelector('.special')?.classList.remove('special');dia8.classList.add('special')}else{document.querySelector('.special')?.classList.remove('special')} 
+  console.log(inputDate, year, month, day)
 })
+      
 
 
 
@@ -354,6 +362,8 @@ let databr = new Date().toLocaleString("pt-BR", {timeZone: "America/Sao_Paulo"})
 
 let quantidadeDeHoras = 3;
 date.setHours(date.getHours()-quantidadeDeHoras);
+    
+    
     
     // Função que pega a data de hoje
 function resetDate() {
