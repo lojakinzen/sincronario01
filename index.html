@@ -340,7 +340,7 @@ form.addEventListener('submit', function(event){
   let year = formDate.value.substring(0, 4)
   let month = formDate.value.substring(5, 7)
   let day = formDate.value.substring(8, 10)
-  if(day == 14 && month == 03){document.querySelector('.special')?.classList.remove('special');dia8.classList.add('special')}else{document.querySelector('.special')?.classList.remove('special')} 
+  if(day == 14 && month == 03){document.querySelector('.special')?.classList.remove('special');dia8.classList.add('special');document.querySelector('#dia').value = ("dia-08");document.querySelector('#lua').value = ("lua-09")}else{document.querySelector('.special')?.classList.remove('special');document.querySelector('#dia').value = ("fora-do-tempo");document.querySelector('#lua').value = ("dia-fora-do-tempo")} 
   console.log(inputDate, year, month, day)
 })
       
