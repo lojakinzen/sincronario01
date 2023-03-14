@@ -18,6 +18,64 @@
 
 
 
+
+
+select{
+	height: 30px;
+	width: 165px;
+	background-color: #ccc;
+	padding: 0px 5px;
+	box-sizing: border-box;
+	outline: none;
+	color: #272626;
+	border: none;
+	text-align: left;
+	font-size: 14.5px;
+	font-weight: 610;
+	cursor: pointer;
+	font-family: museo_sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+      "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.seletores {
+  display: flex;
+  flex-wrap: no-wrap;
+  justify-content: center;
+}
+
+
+.sincronario{
+  display: flex;
+  padding: 2px 2px 2px 2px;
+  flex-direction:;
+  border: 2px white;
+  height: 35px;
+  margin-top: 10px;
+  
+}
+
+#lua {
+  margin-top: 0px;
+  width: 190px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-left: 1px solid white;
+}
+
+#dia {
+  margin-top: 0px;
+  width: 128px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+#linha_plasma{
+ color: #939393;
+}
+
+
+
 .plasma {
     width: 13vw;
     float: left;
@@ -889,29 +947,6 @@
 
 
 
-/* Objetos */
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.calendar-assets {
-}
-.form-input {
-    display: flex;
-    width: 250px;
-    align-items: center;
-    justify-content: space-between;
-  
-}
-.day-assets {
-    display: flex;
-    width: 250px;
-    align-items: center;
-    justify-content: space-between;
-}
-
 /* Botões */
 .btn-calendario {
     height: 30px;
@@ -926,7 +961,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: 0.2s ease;
     
     font-size: 15px;
     font-weight: 500;
@@ -939,7 +973,6 @@
 .btn-calendario:active {
   color: #FFF;
   background: black;
-  transition: all 0.005s;
 }
 
 
@@ -969,71 +1002,31 @@
 
 
 
-select{
-	height: 30px;
-	width: 165px;
-	background-color: #ccc;
-	padding: 0px 5px;
-	box-sizing: border-box;
-	outline: none;
-	color: #272626;
-	border: none;
-	text-align: left;
-	font-size: 14.5px;
-	font-weight: 610;
-	cursor: pointer;
-	font-family: museo_sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-      "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
-      "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
+/* Divs Calendario */
 
-.seletores {
+#div-data {
   display: flex;
-  flex-wrap: no-wrap;
+  flex-direction: column;
+    border: 2px ;
+  align-items: center;
   justify-content: center;
 }
 
 
-.sincronario{
+#date-search {
   display: flex;
-  padding: 2px 2px 2px 2px;
-  flex-direction:;
-  border: 2px white;
-  height: 35px;
-  margin-top: 10px;
-  
+    width: 250px;
+    align-items: center;
+    justify-content: space-between;
+  border: 2px;
+  margin-top: 20px;
 }
 
-#lua {
-  margin-top: 0px;
-  width: 190px;
-  border-top-right-radius: 6px;
-  border-bottom-right-radius: 6px;
-  border-left: 1px solid white;
-}
-
-#dia {
-  margin-top: 0px;
-  width: 128px;
-  border-top-left-radius: 6px;
-  border-bottom-left-radius: 6px;
-}
-
-#linha_plasma{
- color: #939393;
-}
-
-
-
-
-
-/* Parte do Calendário que não vai usar*/
-#currentDate{
-  display: none;
-}
-#calendar tr {
-  display: none;
-}
-.header {
-  display: none;
+#div-botoes {
+    display: flex;
+    width: 250px;
+    align-items: center;
+    justify-content: space-between;
+  margin-top: 11px;
+  border: 2px ;
 }
