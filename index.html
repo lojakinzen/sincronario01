@@ -274,8 +274,8 @@
   
   <div id="div-data">
  
-   <form class="form-input" id="date-search">
-      <input type="date" class="text-field" name="date" id="date" required>
+   <form class="form-input" id="date-search" >
+      <input type="date" class="text-field" name="date" id="date-picker" required>
 
       <button type="submit" class="btn-calendario" title="Pesquisar"><i class="fas fa-search"></i>
       </button>
@@ -292,7 +292,70 @@
     
 
 
-  <script> </script>
+  <script> 
+  
+// função que captura o Dia do sincronário selecionado
+function atualizouDia(){
+  let Dia = document.querySelector('#dia');
+  let indexDia = Dia.options[Dia.selectedIndex];
+  let valueDia = indexDia.value;
+  let textDia = indexDia.text;
+  
+  console.log(valueDia,textDia)
+}
+
+// função que captura a Lua do sincronário selecionado
+function atualizouLua() {
+  let Lua = document.querySelector('#lua');
+  let indexLua = Lua.options[Lua.selectedIndex];
+  let valueLua = indexLua.value;
+  let textLua = indexLua.text;
+  
+  console.log(valueLua, textLua)
+}
+
+
+// função que muda o estilo do botão do dia selecionado
+let btnList = document.querySelectorAll('.btn')    
+btnList.forEach(btn => {
+      
+btn.addEventListener('click', () => {
+    document.querySelector('.special')?.classList.remove('special');
+    btn.classList.add('special');
+    });
+      
+    });
+  
+
+// capturando os valores de data do formulário
+let form = document.querySelector('.form-input')
+let formDate = document.querySelector('.text-field')
+
+form.addEventListener('submit', function(event){
+  event.preventDefault()
+  let inputDate = formDate.value
+  console.log(inputDate)
+})
+
+
+
+
+// Váriavel Datas de Hoje e Manipulação das Datas
+ var date = new Date();
+      var year = date.getFullYear();
+      var month = String(date.getMonth()+1).padStart(2,'0');
+      var todayDate = String(date.getDate()).padStart(2,'0');
+      var datePattern = year + '-' + month + '-' + todayDate;
+      document.getElementById("date-picker").value = datePattern;
+
+let datahojepadraobr = date.toLocaleDateString();
+
+let databr = new Date().toLocaleString("pt-BR", {timeZone: "America/Sao_Paulo"});
+
+let quantidadeDeHoras = 3;
+date.setHours(date.getHours()-quantidadeDeHoras);
+
+</script>
 
   <script src="https://kit.fontawesome.com/812e771e48.js" crossorigin="anonymous"></script>
 
