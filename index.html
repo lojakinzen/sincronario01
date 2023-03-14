@@ -12,7 +12,7 @@
 
 <style>
   body {
-    padding: 25px 0;
+    padding: 20px 0;
     background-color: ;
     color: #ccc;
     margin: 0px 5px 0px 5px;
@@ -354,6 +354,36 @@ let databr = new Date().toLocaleString("pt-BR", {timeZone: "America/Sao_Paulo"})
 
 let quantidadeDeHoras = 3;
 date.setHours(date.getHours()-quantidadeDeHoras);
+    
+    // Função que pega a data de hoje
+function resetDate() {
+    date = new Date();
+  let quantidadeDeHoras = 3;
+date.setHours(date.getHours()-quantidadeDeHoras);
+    var month = String(date.getMonth()+1).padStart(2,'0');
+      var todayDate = String(date.getDate()).padStart(2,'0');
+      var datePattern = year + '-' + month + '-' + todayDate;
+      document.getElementById("date-picker").value = datePattern;
+}
+    
+    
+// Funções de avançar e retroceder dia    
+    function prevDay() {
+    date = new Date(date.getFullYear(), date.getMonth(), date.getDate() - 1);      var year = date.getFullYear();
+      var month = String(date.getMonth()+1).padStart(2,'0');
+      var todayDate = String(date.getDate()).padStart(2,'0');
+      var datePattern = year + '-' + month + '-' + todayDate;
+      document.getElementById("date-picker").value = datePattern;
+}
+
+function nextDay() {
+    date = new Date(date.getFullYear(), date.getMonth(), date.getDate() + 1);
+      var year = date.getFullYear();
+      var month = String(date.getMonth()+1).padStart(2,'0');
+      var todayDate = String(date.getDate()).padStart(2,'0');
+      var datePattern = year + '-' + month + '-' + todayDate;
+      document.getElementById("date-picker").value = datePattern;
+}
 
 </script>
 
