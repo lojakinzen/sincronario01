@@ -979,7 +979,7 @@ select{
 /* Calendario */
 .text-field {
 	height: 30px;
-	width: 162.5px;
+	width: 163px;
   border: none;
   border-radius: 6px;
   outline: none;
@@ -1019,7 +1019,8 @@ select{
     align-items: center;
     justify-content: space-between;
   border: 2px;
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 0px;
 }
 
 #div-botoes {
@@ -1027,6 +1028,10 @@ select{
     width: 250px;
     align-items: center;
     justify-content: space-between;
-  margin-top: 0px;
+  margin-top: 10px;
   border: 2px ;
+}
+
+#linha_plasma {
+  color: #979797;
 }
