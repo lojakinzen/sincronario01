@@ -32,7 +32,7 @@ select{
 	text-align: left;
 	font-size: 14.5px;
 	font-weight: 610;
-	cursor: pointer;
+	cursor: ;
 	font-family: museo_sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
       "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
       "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -105,28 +105,28 @@ select{
     display: flex;
     justify-content: center;
     color: white;
-		cursor: pointer;
+		cursor: ;
   }
 
   #semana2 {
     display: flex;
     justify-content: center;
     color: white;
-		cursor: pointer;
+		cursor: ;
   }
 
   #semana3 {
     display: flex;
     justify-content: center;
     color: white;
-		cursor: pointer;
+		cursor: ;
   }
 
   #semana4 {
     display: flex;
     justify-content: center;
     color: white;
-		cursor: pointer;
+		cursor: ;
   }
 
   #dia1 {
@@ -150,7 +150,7 @@ select{
     font-weight: 630;
     line-height: 1.43 color: white;
     text-align: center;
-		cursor: pointer;
+		cursor: ;
   }
 
   #dia1:hover {
@@ -179,7 +179,7 @@ select{
     font-weight: 630;
     line-height: 1.43 color: white;
     text-align: center;
-		cursor: pointer;
+		cursor: ;
   }
 
   #dia2:hover {
@@ -208,7 +208,7 @@ select{
     font-weight: 630;
     line-height: 1.43 color: white;
     text-align: center;
-		cursor: pointer;
+		cursor: ;
   }
 
   #dia3:hover {
@@ -237,7 +237,7 @@ select{
     font-weight: 630;
     line-height: 1.43 color: white;
     text-align: center;
-		cursor: pointer;
+		cursor: ;
   }
 
   #dia4:hover {
@@ -266,7 +266,7 @@ select{
     font-weight: 630;
     line-height: 1.43 color: white;
     text-align: center;
-		cursor: pointer;
+		cursor: ;
   }
 
   #dia5:hover {
@@ -295,7 +295,7 @@ select{
     font-weight: 630;
     line-height: 1.43 color: white;
     text-align: center;
-		cursor: pointer;
+		cursor: ;
   }
 
   #dia6:hover {
@@ -325,7 +325,7 @@ select{
     font-weight: 630;
     line-height: 1.43 color: white;
     text-align: center;
-		cursor: pointer;
+		cursor: ;
   }
 
   #dia7:hover {
@@ -354,7 +354,7 @@ select{
     font-weight: 630;
     line-height: 1.43 color: white;
     text-align: center;
-		cursor: pointer;
+		cursor: ;
   }
 
   #dia8:hover {
@@ -383,7 +383,7 @@ select{
     font-weight: 630;
     line-height: 1.43 color: white;
     text-align: center;
-		cursor: pointer;
+		cursor: ;
   }
 
   #dia9:hover {
@@ -412,7 +412,7 @@ select{
     font-weight: 630;
     line-height: 1.43 color: white;
     text-align: center;
-		cursor: pointer;
+		cursor: ;
   }
 
   #dia10:hover {
@@ -441,7 +441,7 @@ select{
     font-weight: 630;
     line-height: 1.43 color: white;
     text-align: center;
-		cursor: pointer;
+		cursor: ;
   }
 
   #dia11:hover {
@@ -470,7 +470,7 @@ select{
     font-weight: 630;
     line-height: 1.43 color: white;
     text-align: center;
-		cursor: pointer;
+		cursor: ;
   }
 
   #dia12:hover {
@@ -499,7 +499,7 @@ select{
     font-weight: 630;
     line-height: 1.43 color: white;
     text-align: center;
-		cursor: pointer;
+		cursor: ;
   }
 
   #dia13:hover {
@@ -528,7 +528,7 @@ select{
     font-weight: 630;
     line-height: 1.43 color: white;
     text-align: center;
-		cursor: pointer;
+		cursor: ;
   }
 
   #dia14:hover {
@@ -557,7 +557,7 @@ select{
     font-weight: 630;
     line-height: 1.43 color: white;
     text-align: center;
-		cursor: pointer;
+		cursor: ;
   }
 
   #dia15:hover {
@@ -586,7 +586,7 @@ select{
     font-weight: 630;
     line-height: 1.43 color: white;
     text-align: center;
-		cursor: pointer;
+		cursor: ;
   }
 
   #dia16:hover {
@@ -615,7 +615,7 @@ select{
     font-weight: 630;
     line-height: 1.43 color: white;
     text-align: center;
-		cursor: pointer;
+		cursor: ;
   }
 
   #dia17:hover {
@@ -644,7 +644,7 @@ select{
     font-weight: 630;
     line-height: 1.43 color: white;
     text-align: center;
-		cursor: pointer;
+		cursor: ;
   }
 
   #dia18:hover {
@@ -673,7 +673,7 @@ select{
     font-weight: 630;
     line-height: 1.43 color: white;
     text-align: center;
-		cursor: pointer;
+		cursor: ;
   }
 
   #dia19:hover {
@@ -702,7 +702,7 @@ select{
     font-weight: 630;
     line-height: 1.43 color: white;
     text-align: center;
-		cursor: pointer;
+		cursor: ;
   }
 
   #dia20:hover {
@@ -731,7 +731,7 @@ select{
     font-weight: 630;
     line-height: 1.43 color: white;
     text-align: center;
-		cursor: pointer;
+		cursor: ;
   }
 
   #dia21:hover {
@@ -761,7 +761,7 @@ select{
     font-weight: 630;
     line-height: 1.43 color: white;
     text-align: center;
-		cursor: pointer;
+		cursor: ;
   }
 
   #dia22:hover {
@@ -790,7 +790,7 @@ select{
     font-weight: 630;
     line-height: 1.43 color: white;
     text-align: center;
-		cursor: pointer;
+		cursor: ;
   }
 
   #dia23:hover {
@@ -819,7 +819,7 @@ select{
     font-weight: 630;
     line-height: 1.43 color: white;
     text-align: center;
-		cursor: pointer;
+		cursor: ;
   }
 
   #dia24:hover {
@@ -848,7 +848,7 @@ select{
     font-weight: 630;
     line-height: 1.43 color: white;
     text-align: center;
-		cursor: pointer;
+		cursor: ;
   }
 
   #dia25:hover {
@@ -877,7 +877,7 @@ select{
     font-weight: 630;
     line-height: 1.43 color: white;
     text-align: center;
-		cursor: pointer;
+		cursor: ;
   }
 
   #dia26:hover {
@@ -906,7 +906,7 @@ select{
     font-weight: 630;
     line-height: 1.43 color: white;
     text-align: center;
-		cursor: pointer;
+		cursor: ;
   }
 
   #dia27:hover {
@@ -936,7 +936,7 @@ select{
     font-weight: 630;
     line-height: 1.43 color: white;
     text-align: center;
-		cursor: pointer;
+		cursor: ;
   }
 
   #dia28:hover {
