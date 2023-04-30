@@ -6,8 +6,7 @@
 
 ::-webkit-scrollbar{
 	background-color: #ccc;
-	border-top-right-radius: 8px;
-	border-bottom-right-radius: 8px;
+	border-radius: 10px;
 	width: 0px;
     	height: 0px;
 }
